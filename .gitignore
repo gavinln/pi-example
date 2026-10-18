@@ -221,3 +221,6 @@ __marimo__/
 
 # temporary dir
 tmp/
+
+# workspace/worktree directory at project root
+/wk/
