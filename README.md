@@ -23,3 +23,13 @@ Pi is a minimalist, open-source AI coding agent and agent harness
 [The Pi Coding Agent - Video][1040]
 
 [1040]: https://www.youtube.com/watch?v=f8cfH5XX-XU
+
+## Rust agent harness
+
+[JCode][1100]
+
+[1100]: https://github.com/1jehuang/jcode
+
+[PI agent rust][1110]
+
+[1110]: https://github.com/Dicklesworthstone/pi_agent_rust

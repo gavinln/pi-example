@@ -10,9 +10,13 @@ SHELL = /bin/bash
 help:  ## help for this Makefile
 	@grep -E '^[a-zA-Z0-9_\-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "%-30s %s\n", $$1, $$2}'
 
+.PHONY: markdownlint
+markdownlint:  ## run markdown file lint
+	markdownlint --disable MD029 MD040 -- '**/*.md'
+
 .PHONY: pre-commit
 pre-commit:  ## run pre-commit
-	markdownlint --disable MD029 MD040 -- '**/*.md'
+	make markdownlint
 
 .PHONY: clean
 clean: env-rm  ## remove temporary files
