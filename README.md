@@ -2,6 +2,12 @@
 
 Pi is a minimalist, open-source AI coding agent and agent harness
 
+## PI in a Docker Container
+
+[Isolate PI][100]
+
+[100]: https://pi.dev/docs/latest/containerization
+
 ## Links
 
 [PI Docs][1000]
@@ -24,7 +30,7 @@ Pi is a minimalist, open-source AI coding agent and agent harness
 
 [1040]: https://www.youtube.com/watch?v=f8cfH5XX-XU
 
-## Rust agent harness
+### Rust agent harness
 
 [JCode][1100]
 
